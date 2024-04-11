@@ -1,0 +1,239 @@
+---
+title: "Open Science"
+format: revealjs
+---
+
+## Why Open Science?
+
+* Accelerate science by making *all* scholarly output easier to reuse
+* Increase trust by enabling oversight
+* Increase rigor and reliability by facilitating fault-finding
+* Science's self-correcting mechanism
+    + If publishing is less of a "big deal", then neither are retractions
+* Lower threshold to participation in science
+* Let everyone enjoy the fruits of (publicly funded) research
+
+## Why me?
+
+* Workflow for Open Reproducible Code in Science (2021)
+* Reproducible Research in R (Peikert, 2021)
+    + Both publications with Peikert and Brandmaier, et al.
+* Two Open Educational Material GitBooks and a tutorial on how to make them
+* Former faculty ambassador -> chair of Open Science Community Utrecht
+* Chair of Open Science Community Tilburg
+* Recipient eScience Center Spearhead grant for open research software
+* Recipient 2 educational innovation grants: developing OS BA-curriculum, and professionalizing OEM use
+
+## Open Science: it's Alive! 
+
+Not set-in-stone
+
+Not bureaucracy
+
+Active research area in Methodology and Epistemology
+
+Vibrant community of collaborative interdisciplinary scholars
+
+## Domains of Open Science
+
+* Open Scholarly Knowledge
+* Open Scholarly Communication
+* Open Engagement with Society
+* Open Infrastructures
+
+
+## Open Scholarly Knowledge {.smaller}
+
+FAIR: Findable, Accessible, Interoperable, Reusable
+
+* Applies to *all* scholarly output
+    + Open Access Publishing
+    + Data and code in indexed repositories with permissive license
+* "Modular" publishing: instead of 1 paper with supplemental materials, publish output separately
+* Some may benefit from the lit review / theoretical framework
+* Others want to reuse the data
+* Others want to apply the method to their data
+* Others want to reuse your instruments / study design / etc
+
+## Publish-Review-Curate {.smaller}
+
+* Preprints becoming well-established
+* Room for growth:
+    + Engagement with paper
+    + Reputation system
+    + Versioned papers
+
+* Peer Community In has the right idea
+    + Free peer review, recommendation and open publication
+* Submit, peer review, recommendation by thematic community
+    + Option to publish in Peer Community Journal or submit to PCI-friendly journal
+* Free for all users
+
+## Open Peer Review
+
+* Increase fairness and accountability
+* Bring scholarly debate into the open
+* Prevent journal-shopping
+* Credit for Reviews
+
+## Open Educational Materials
+
+* Interactive GitBooks with embedded knowledge clips, formative tests, etc
+    + Can be cloned, reused, edited and added to
+* Educate students to contribute to GitBooks
+* Open University Press offers in-print option
+* [Turing Way](https://the-turing-way.netlify.app/index.html)
+* [Framework for Open and Reproducible Research Training](https://forrt.org/#)
+* No good repository for *non-open-science-OEM*; should be separate category on OSF.io
+
+
+# Open Scholarly Communication
+
+
+## Open Science Community Utrecht {.smaller}
+
+* Founded 2018
+* Bottom-up platform aimed at university staff (scholars, teachers, and support staff)
+* Goal: Harnessing grass-roots support for the Open Science transition
+* Activities: community building, peer-to-peer knowledge exchange, promoting collaboration, and supporting member initiatives
+* Dual role: representing community's interests at faculty level, promoting faculty-level initiatives within the community.
+* About 1% of employees of Utrecht University (UU) and the University Medical Centre Utrecht (UMCU) from all disciplines and career stages.
+* Independent, grassroots initiative
+
+## Other Institutional Bodies {.smaller}
+
+* Open Science Program (UU-OSP)
+    + Top-down, comprises rector, deans, and specialized support staff
+* Faculty Open Science Teams (FOSTs)
+    + Dean and specialized "fellows", meet monthly
+* University Library (UBU)
+		+ Expertise in open access publishing
+* Research Data Management (RDM) Support.
+    + Data stewards
+    + Research software developers
+* OSCU Faculty Ambassadors liaise with these bodies, enhancing communication and initiative promotion across different levels of the university.
+    + .1FTE
+
+## Global Representation {.smaller}
+
+* OSCU was the world’s first open science community
+* All Dutch universities have now followed
+* International network of OSCs growing: Sweden, Serbia, Ireland, Portugal, Denmark and Saudi-Arabia, etc (this was in 2022)
+* [OSC Starter Kit](https://www.startyourosc.com/)
+* [OSC Incubator Program](https://osc-international.com/)
+    1. Mission and Vision
+    2. Community Engagement
+    3. Communication Strategy
+    4. Stakeholder Engagement
+    5. Governance and Sustainability
+
+## Reproducibility Networks
+
+Basically the UK version of OSC
+
+* But restricted in scope (reproducibility < OS)
+* Reproducibility (of findings) is orthogonal to open science
+
+
+## Core Assumptions
+
+* OSCU Faculty Ambassadors have been effective agents of change in promoting the open science transition among the UU workforce
+
+* Communities play an essential role in any culture change (Duhigg, 2012)
+* Open science is inherently grass-roots, community-based movement
+    + Not just bureaucracy: rooted in methodology and epistemology
+* Any organisational effort to promote OS ought to involve the community (“Nothing about us without us”)
+
+
+## Activities
+
+* OSCoffee (monthly talk)
+* Faculty Symposium
+* Road to Open Science Podcast
+* Student Initiative for Open Science
+
+
+## OSCTilburg
+
+* Chair + Director Open Science (UL) + Faculty Ambassadors
+* Funded by National Science Foundation (NWO)
+* Newsletter
+* Open Access Drive (Taveerne Clause)
+* Faculty Symposium
+* Code Café
+
+## Other Institutional Bodies
+
+* University Library
+    + Tilburg Open University Press
+    + Open Educational Materials
+* Digital Competence Centers
+    + Data Stewards
+    + Code Steward
+* Vision "Open Science"
+    + Ratified by university board, so must be implemented
+
+# Open Engagement with Society
+
+## Examples
+
+* Mixed-methods research, involve target population
+    + E.g., Maciejewski: panel of adolescents
+    + E.g., De Smet: panel of patients
+* National Library:
+    + AI-summaries of Dutch scholarly output
+* CoDa, MetaBUS
+    + Continuously cumulating, metadata-annotated database
+* Citizen science (e.g., backyard bird counting)
+
+# Open Infrastructures
+
+## Centralization of Compute {.smaller}
+
+* On one hand: scientists need lots of control (including over compute infrastructure)
+    + They often know best
+    + Need freedom to develop new approaches/research software
+* On the other hand: small local hardware is costly, hard to maintain, not secure
+
+Proposal: Many projects could (*also*) be run on centralized compute
+
+* This would require and facilitate version control, reproducibility, and containerization
+
+## Trust and Validation of Results
+
+WORCS (Van Lissa, Peikert, Brandmaier, and others, 2021) uses integration testing, reproducing analyses through GitHub Actions and validating the results
+
+* Why not perform cloud validation of results on centralized compute infrastructure?
+* National platforms: SURF
+* EU platform: European Open Science Cloud
+
+## What about this EOSC {.smaller}
+
+"System of Systems"
+
+* EOSC marketplace with 5 million+ resources, including data, software, publications, training materials, and more
+* 330 service providers (offering over 470 digital services)
+* 10 EOSC Future Science Projects accelerating cross-disciplinary science and data-driven solutions to tackle global challenges (e.g. COVID-19, climate change, food security, etc.)
+* Framework for monitoring the implementation and uptake of EOSC
+* 40 RDA/EOSC Future open calls
+* Over EUR 4 million in procurement calls to boost the distribution of commercial cloud services
+
+## We can do Better
+
+At the moment, GitHub provides a better service for open science
+
+My hope is that there will be centralized, scalable compute with built-in version control, integration testing, and reputation system
+
+# Discussion Points
+
+## Discussion Points {.smaller}
+
+1. Scholarship should be **radically** open
+    + Are there legitimate interests for closed science?
+1. Open science movement should be top down (policy-driven) vs. bottom up (community-driven).
+1. Open science infrastructure should be centralized (commercial or public?)
+1. Open Empirical Cycle
+    + Open science is confounded with reproducibility and other deductive research practices
+    + We need methods that go beyond preregistration, replication, etc
+1. I disagree with *insert specific open science practice*, e.g., open peer review, preprints, data sharing, etc
+1. How to deal with heterogeneous expertise and expectations re. open science in advisory team?
