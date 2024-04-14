@@ -1,5 +1,5 @@
 ---
-title: "Open Science"
+title: "Quo Vadis Open Science?"
 format: revealjs
 ---
 
@@ -34,7 +34,7 @@ Active research area in Methodology and Epistemology
 
 Vibrant community of collaborative interdisciplinary scholars
 
-## Domains of Open Science
+## Four Key Words of Open Science
 
 * Open Scholarly Knowledge
 * Open Scholarly Communication
@@ -237,3 +237,4 @@ My hope is that there will be centralized, scalable compute with built-in versio
     + We need methods that go beyond preregistration, replication, etc
 1. I disagree with *insert specific open science practice*, e.g., open peer review, preprints, data sharing, etc
 1. How to deal with heterogeneous expertise and expectations re. open science in advisory team?
+1. Multi-dimensional framework: openness, reproducibility, epistemology, methodology
